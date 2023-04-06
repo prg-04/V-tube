@@ -1,0 +1,20 @@
+{
+  "name": "v-tube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prg-04/V-tube.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prg-04/V-tube/issues"
+  },
+  "homepage": "https://github.com/prg-04/V-tube#readme"
+}
