@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0ec53d8e70.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="container">
+      <div class="nav-left container">
+        <!--icons left-->
+        <i class="fa-solid fa-bars-staggered"></i>
+        <!--styled together-->
+        <img
+          src="./images/play.png"
+          alt="play"
+          class="play"
+          width="80"
+          height="80"
+        />
+        <span class="logo-name">MyTube</span>
+      </div>
+      <!--middle icons and search bar-->
+      <div class="nav-middle container">
+        <div class="search-box container">
+          <input type="text" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+      <!--icons right-->
+      <div class="nav-right container">
+        <i class="fa-solid fa-square-plus"></i>
+        <i class="fa-solid fa-bell"></i>
+        <img src="./images/me.jpg" alt="me" class="user-icon" />
+      </div>
+    </nav>
+
+    <div class="vid-container">
+      <div class="main-video">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/-TkoO8Z07hI"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">C++ Full Course-Learn to code today-[free]</a>
+            <p>Bro Code</p>
+            <p>91k views &bull; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-list">
+        <div class="vid active" id="one">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/-TkoO8Z07hI"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">C++ Full Course-Learn to code today-[free]</a>
+            <p>Bro Code</p>
+            <p>91k views &bull; 1 month ago</p>
+          </div>
+        </div>
+        <div class="vid" id="two">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/BMUiFMZr7vk"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#"
+              >Higher-order functions-Part ! of Functional Programming in
+              Javascript</a
+            >
+            <p>Fun Fun Function</p>
+            <p>699k views &bull; Jun 21, 2015</p>
+          </div>
+        </div>
+        <div class="vid" id="three">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/8dWL3wF_OMw"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">Javascript Full Course-Learn to code today-[free]</a>
+            <p>Bro Code</p>
+            <p>546k views &bull; 5 months ago</p>
+          </div>
+        </div>
+        <div class="vid" id="four">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/-jysK0nlz7A"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">9.6: Javascript Closure-p5.js Tutorial</a>
+            <p>The Coding Train</p>
+            <p>117k views &bull; Dec 5, 2015</p>
+          </div>
+        </div>
+        <div class="vid" id="five">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/ZEQh45W_UDo"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">CS50W - Lecture 6 - Python</a>
+            <p>CS50</p>
+            <p>298k views &bull; 1 year ago</p>
+          </div>
+        </div>
+        <div class="vid" id="six">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/ky-24RvI57s"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">CS50 2021 in HDR - Lecture 6 - Python</a>
+            <p>CS50</p>
+            <p>105k views &bull; 7 months ago</p>
+          </div>
+        </div>
+        <div class="vid" id="seven">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/qz0aGYrrlhU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">HTML Tutorial for Beginners: HTML Crash Course</a>
+            <p>Programming with Mosh</p>
+            <p>4.2M views &bull; 1 year ago</p>
+          </div>
+        </div>
+        <div class="vid" id="eight">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/pTB0EiLXUC8"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="vid-info">
+            <a href="#">Object-oriented Programming in 7 minutes| Mosh</a>
+            <p>Programming with Mosh</p>
+            <p>2.8M views &bull; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let listVideo = document.querySelectorAll(".video-list .vid");
+      let mainVideo = document.querySelector(".main-video iframe");
+      let title = document.querySelector(".main-video .vid-info");
+
+      listVideo.forEach((iframe) => {
+        iframe.onclick = () => {
+          listVideo.forEach((vid) => vid.classList.remove("active"));
+          iframe.classList.add("active");
+          if (iframe.classList.contains("active")) {
+            let src = iframe.children[0].getAttribute("src");
+            mainVideo.src = src;
+            let text = iframe.children[1].innerHTML;
+            title.innerHTML = text;
+          }
+        };
+      });
+    </script>
+  </body>
+</html>
