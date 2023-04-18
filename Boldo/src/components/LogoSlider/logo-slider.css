@@ -1,0 +1,30 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slick-slide {
+  animation: scroll 5s linear infinite;
+}
+
+.logo-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-slider-item {
+  width: 100%;
+}
+
+.slick-prev::before {
+  content: ''
+}
+
+.slick-next::before {
+  content: ''
+}
